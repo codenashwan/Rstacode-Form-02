@@ -1,0 +1,32 @@
+*:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+    background-image: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', "Rabar_021" !important;
+    src: url(Rabar_021.ttf);
+}
+button,
+.btn,
+textarea,
+input,
+span,
+pre,
+th,
+tr,
+table,
+td {
+    font-family: 'Roboto', "Rabar_021" !important;
+}
+
+@font-face {
+    font-family: 'Rabar_021';
+    src: url('Rabar_021.ttf');
+}
+
